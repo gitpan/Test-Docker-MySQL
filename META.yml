@@ -27,9 +27,11 @@ requires:
   DBI: '1.631'
   IPC::Run: '0.92'
   Time::HiRes: '1.9726'
-  perl: '5.012000'
+  perl: '5.008000'
 resources:
   bugtracker: https://github.com/punytan/p5-Test-Docker-MySQL/issues
   homepage: https://github.com/punytan/p5-Test-Docker-MySQL
   repository: https://github.com/punytan/p5-Test-Docker-MySQL.git
-version: '0.01'
+version: '0.02'
+x_contributors:
+  - 'bayashi <bayashi@cpan.org>'
